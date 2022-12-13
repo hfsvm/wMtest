@@ -1,0 +1,22 @@
+{
+ "templateKey" : "conditionalErrorProcessing",
+ "names" : [
+   {
+     "value" : "Conditional Error Processing",
+	 "locale" : "en"
+   }
+ ],
+ "descriptions" : [
+   {
+     "value" : "Captures meaningful failure message from the virtual service.",
+	 "locale" : "en"
+   }
+ ],
+ "parameterTemplatesReference" : [ "faultCriteria","preProcessingSteps","customErrorVariable","customFailureMessages","postProcessingSteps"],
+ "occurence" : "multiple",
+ "order" :  {
+   "sequence" : ["faultsequence"],
+   "isCustomOrderSupported" : true
+ },
+ "applicableServiceTypes" : ["REST","SOAP","ODATA"]
+}

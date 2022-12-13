@@ -1,0 +1,14 @@
+searchguard:
+  dynamic:
+    http:
+      xff:
+        enabled: false
+    authc:
+        http_basic_auth_domain:
+            enabled: true
+            order: 1
+            http_authenticator:
+                type: basic
+                challenge: true
+            authentication_backend:
+                type: internal

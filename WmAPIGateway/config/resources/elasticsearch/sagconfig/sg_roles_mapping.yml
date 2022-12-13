@@ -1,0 +1,5 @@
+sg_all_access:
+  users:
+    - Administrator
+    - 'CN=demouser'
+

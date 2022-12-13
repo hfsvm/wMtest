@@ -1,0 +1,40 @@
+.topbar {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: none;
+    height: 50px;
+    max-height: 50px;
+    min-height: 50px;
+    width: 100%;
+    color: #333333;
+}
+
+
+.tdmasthead {
+    background-color: #1776BF;
+    color: #ffffff;
+    height: 50px;
+}
+.toptitle {
+    font-family: 'Roboto',Arial,Sans-serif;
+    text-align: left;
+    color: #fff;
+    font-size: 11px;
+    letter-spacing: 1x;
+    vertical-align: middle;
+    background-color: #1776BF;
+    height: 50px;
+}
+
+.saglogo {
+    padding-left: 30px;
+    padding-right: 60px;
+    vertical-align: middle;
+    background-color: #1776BF;
+    color: #ffffff;
+    height: 50px;
+}
+
+

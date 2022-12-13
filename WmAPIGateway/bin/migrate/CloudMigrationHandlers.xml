@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--suppress ALL -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+
+	<!-- Sample Bean configuration. dependentFiles property is optional. For 
+		handler to execute if there are files which needs to bean present in bkp 
+		folder then dependentFiles property can be added. The value should be file 
+		name or directory name. <bean id="testHandler" class="com.softwareag.apigateway.migration.handlers.TestHandler"> 
+		<property name="handlerEnabled" value="true" /> <property name="dependentFiles"> 
+		<list> <value>config.xml</value> <value>config1.xml</value> </list> </property> 
+		</bean> -->
+
+	<!-- optional - if fails, remove it -->
+	<bean id="aliasHandler"
+		class="com.softwareag.apigateway.migration.handlers.MigrateAliasHandler">
+		<property name="handlerEnabled" value="true" />
+	</bean>
+
+	<!-- check with Madhavan -->
+	<bean id="contentTypesHandler"
+		  class="com.softwareag.apigateway.migration.handlers.ContentTypeHandlingMigrator">
+		<property name="handlerEnabled" value="true" />
+	</bean>
+
+	<!-- Dhivakar -->
+   <bean id="passwordHandler"
+		  class="com.softwareag.apigateway.migration.handlers.APIGatewayPasswordHandler">
+		<property name="handlerEnabled" value="true" />
+	</bean>
+
+	<!-- Clench -->
+	<bean id="valSchemaPolicyHandler"
+		  class="com.softwareag.apigateway.migration.handlers.ValidateSchemaPolicyMigrationHandler">
+		<property name="handlerEnabled" value="true" />
+	</bean>
+
+	<!-- Policies - should not be an issue for IS - all are for ES.. -->
+	<bean id="valHTTPHeadersPolicyHandler"
+		  class="com.softwareag.apigateway.migration.handlers.ValidateHTTPHeadersPolicyMigrationHandler">
+		<property name="handlerEnabled" value="true" />
+	</bean>
+
+	<bean id ="invokeESBMigrationHandler"
+		  class="com.softwareag.apigateway.migration.handlers.InvokeESBPolicyMigrationHandler">
+		<property name="handlerEnabled" value="true" />
+	</bean>
+
+	<bean id ="xsltTransformationMigrationHandler"
+		  class="com.softwareag.apigateway.migration.handlers.XSLTTransformationMigrationHandler">
+		<property name="handlerEnabled" value="true" />
+	</bean>
+	<bean id="reverseMapEntryHandler"
+		  class="com.softwareag.apigateway.migration.handlers.ReverseMapIndexMigrationHandler">
+		<property name="handlerEnabled" value="true" />
+	</bean>
+
+</beans>

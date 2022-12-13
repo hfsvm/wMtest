@@ -1,0 +1,27 @@
+{
+	"_source": {
+		"mappings": {
+			"properties": {
+				"correlationId": {
+					"type": "keyword"
+				},
+				"fileType": {
+					"type": "keyword"
+				},
+				"logLevel": {
+					"type": "keyword"
+				},
+				"message": {
+					"type": "keyword"
+				},
+				"node": {
+					"type": "keyword"
+				},
+				"timestamp": {
+					"type": "date",
+					"format" : "yyyy-MM-dd HH:mm:ssxxx||epoch_millis"
+				}
+			}
+		}
+	}
+}

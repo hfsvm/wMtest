@@ -1,0 +1,16 @@
+{
+	"key": [
+		{
+			"_id": "config:7.2.0",
+			"_type": "doc",
+			"_index": "gateway_{0}_dashboard",
+			"_source": {
+				"config": {
+					"buildNum": "9889",
+					"defaultIndex": "gateway_{0}_analytics"
+				},
+				"type": "config"
+			}
+		}
+	]
+}

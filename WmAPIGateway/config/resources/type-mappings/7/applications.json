@@ -1,0 +1,13 @@
+{
+    "properties": {
+      "lastUpdated": {
+        "type": "date"
+      },
+	  "applicationID": {
+		"type" : "keyword"
+	  },
+      "packageId": {
+        "type" : "keyword"
+      }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "id": "GlobalLogInvocationPolicy",
+    "names": [
+      {
+        "value": "Transaction logging",
+        "locale": "English"
+      }
+    ],
+    "descriptions": [
+      {
+        "value": "This is a system policy, which has log invocation policy and filters associated to log request or response payloads to a specified destination. These transactions are monitored and logged across all APIs in API Gateway",
+        "locale": "English"
+      }
+    ],
+    "scope": {
+      "applicableAPITypes": [
+        "REST",
+        "SOAP",
+		"ODATA"
+      ],
+      "result": {
+        "apiIdList": []
+      },
+      "scopeConditions": [],
+      "logicalConnector": "AND"
+    },
+    "policyEnforcements": [
+      {
+        "enforcements": [
+          {
+            "enforcementObjectId": "GlobalLogInvocationPolicyAction",
+            "order": null
+          }
+        ],
+        "stageKey": "LMT"
+      }
+    ],
+    "policyScope": "GLOBAL",
+    "active": false,
+    "global": true,
+    "systemPolicy": true
+  }

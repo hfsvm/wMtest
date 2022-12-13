@@ -1,0 +1,7 @@
+#keys cannot contain dots
+#if you have a username with dots then specify it with username: XXX
+Administrator:
+  hash: $2a$12$sm2AEpQx6QNq6YRSYHGCnetiRWKMWrQY/udSSI0dDFZ1r3qo51bzK
+
+CN=demouser:
+  hash: $2a$12$S.sbt5vK0AiBOmQ9hVyFK.sR55dx.7NJGSdPlYEqPUXHZKHZBRuoO

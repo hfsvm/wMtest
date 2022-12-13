@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="shared">ICAgIAogICAgcHJpdmF0ZSBzdGF0aWMgZmluYWwgU3RyaW5nIFBBUkVOVF9QQUNLQUdFX05BTUUg
+PSAiV21BcHBQbGF0IjsKCiAgICBwcml2YXRlIHN0YXRpYyB2b2lkIHNldEFsbEFjbFR5cGVzKFN0
+cmluZyBpblRhcmdldE5hbWUsIFN0cmluZyBpbkFjbE5hbWUpIHsKCi8qIC0gd2hhdCB3ZSB3ZXJl
+IGRvaW5nIGJlZm9yZSAuLi4KQUNMTWFuYWdlci5XRUJNX0FETUlOSVNUUkFUT1JTX0FDTCwgLy8g
+YnJvd3NlCgkgICAgICAgICAgICAJCUFDTE1hbmFnZXIuSU5URVJOQUxfQUNMLCAgLy8gZXhlY3V0
+ZQoJICAgICAgICAgICAgCQludWxsLCAvLyBBQ0xNYW5hZ2VyLldFQk1fSU5URVJOQUxERVZfQUNM
+IC8vIHJlYWQKCSAgICAgICAgICAgIAkJbnVsbCwgLy8gQUNMTWFuYWdlci5XRUJNX0lOVEVSTkFM
+REVWX0FDTCAvLyB3cml0ZQoJICAgICAgICAgICAgCQlmYWxzZSk7CiovICAgICAgICAgICAgICAg
+ICAgICAgICAgCgogICAgICAgIC8vIEV4ZWN1dGUsIGxpc3QsIHJlYWQgJiB3cml0ZSBBQ0xzOyB1
+c2UgZGVwbG95ZXIgYWNsIGZvciBhbGwKICAgICAgICBBQ0xNYW5hZ2VyLnNldEFjbEdyb3VwKCBp
+blRhcmdldE5hbWUsIGluQWNsTmFtZSApOwogICAgICAgIEFDTE1hbmFnZXIuc2V0QnJvd3NlQWNs
+R3JvdXAoIGluVGFyZ2V0TmFtZSwgaW5BY2xOYW1lICk7CiAgICAgICAgQUNMTWFuYWdlci5zZXRS
+ZWFkQWNsR3JvdXAoIGluVGFyZ2V0TmFtZSwgaW5BY2xOYW1lICk7CiAgICAgICAgQUNMTWFuYWdl
+ci5zZXRXcml0ZUFjbEdyb3VwKCBpblRhcmdldE5hbWUsIGluQWNsTmFtZSApOwogICAgfQoKICAg
+IC8qKgogICAgICogUmV0dXJuIHRoZSBmb3JtYXR0ZWQgcGFja2FnZSB2ZXJzaW9uIHN0cmluZyBm
+b3IgdGhlIFdtQXBwUGxhdCBwYWNrYWdlLgogICAgICovCiAgICBwdWJsaWMgc3RhdGljIFN0cmlu
+ZyBnZXRQYWNrYWdlVmVyc2lvbigpIHsKICAgIAlpZiAoIHdtQXBwUGxhdFZlcnNpb24gPT0gbnVs
+bCkgewogICAgCQlTdHJpbmcgcGFja2FnZVZlcnNpb24gPSBQQVJFTlRfUEFDS0FHRV9OQU1FKyI7
+OS4xMC4wIjsKCSAgICAJdHJ5IHsKCSAgICAJCVBhY2thZ2UgcGtnID0gUGFja2FnZU1hbmFnZXIu
+Z2V0UGFja2FnZShQQVJFTlRfUEFDS0FHRV9OQU1FKTsKCSAgICAJCWlmICggcGtnICE9IG51bGwp
+IHsKCSAgICAJCQlwYWNrYWdlVmVyc2lvbiA9IGZvcm1hdHRlZFBhY2thZ2VOYW1lKFBBUkVOVF9Q
+QUNLQUdFX05BTUUsIHBrZy5nZXRWZXJzaW9uKCkpOwoJICAgIAkJfQoJICAgIAl9IGNhdGNoIChF
+eGNlcHRpb24gZSkgeyB9CgkgICAgCXdtQXBwUGxhdFZlcnNpb24gPSBwYWNrYWdlVmVyc2lvbjsK
+ICAgIAl9CgogICAgCXJldHVybiB3bUFwcFBsYXRWZXJzaW9uOwogICAgfQoKICAgIC8qKgogICAg
+ICogQ3JlYXRlIGEgc3RyaW5nIHRoYXQgbWVldHMgdGhlIGV4cGVjdGVkIGZvcm1hdCBmb3IgYSBy
+ZXF1aXJlZCBJUyBwYWNrYWdlIGRlcGVuZGVuY3kgYXMgaXQgZXhpc3RzIGluIHRoZSBtYW5pZmVz
+dC4KICAgICAqLwogICAgcHJpdmF0ZSBzdGF0aWMgU3RyaW5nIGZvcm1hdHRlZFBhY2thZ2VOYW1l
+KFN0cmluZyBwYWNrYWdlTmFtZSwgU3RyaW5nIHJhd1ZlcnNpb24pIHsKICAgIAlTdHJpbmcgdmVy
+c2lvbiA9IHJhd1ZlcnNpb247CiAgICAJaWYgKCByYXdWZXJzaW9uICE9IG51bGwpIHsKICAgIAkJ
+U3RyaW5nW10gcGllY2VzID0gcmF3VmVyc2lvbi5zcGxpdCggIlxcLiIpOwogICAgCQlTdHJpbmdC
+dWlsZGVyIGJ1aWxkZXIgPSBuZXcgU3RyaW5nQnVpbGRlcigpOwogICAgCQlmb3IgKCBpbnQgaWR4
+ID0gMDsgaWR4IDwgMzsgaWR4KyspIHsKICAgIAkJCWlmIChpZHg+MCkgYnVpbGRlci5hcHBlbmQo
+Jy4nKTsKICAgIAkJCWJ1aWxkZXIuYXBwZW5kKHBpZWNlc1tpZHhdLnRyaW0oKSk7CiAgICAJCX0K
+ICAgIAkJdmVyc2lvbiA9IGJ1aWxkZXIudG9TdHJpbmcoKTsKICAgIAl9CiAgICAJcmV0dXJuIHBh
+Y2thZ2VOYW1lKyI7Iit2ZXJzaW9uOwogICAgfQoKCiAgICBwcml2YXRlIHN0YXRpYyBTdHJpbmcg
+Z2V0UmVxdWlyZWRTdHJpbmcoU3RyaW5nIGtleSwgSURhdGFNYXAgcGlwZU1hcCkgdGhyb3dzIFNl
+cnZpY2VFeGNlcHRpb24gewogICAgCVN0cmluZyB2YWx1ZSA9IHBpcGVNYXAuZ2V0QXNTdHJpbmco
+a2V5KTsKICAgIAlpZiAoIHZhbHVlID09IG51bGwgfHwgdmFsdWUubGVuZ3RoKCkgPT0gMCkgewog
+ICAgCQlTdHJpbmcgbXNnID0gU3RyaW5nLmZvcm1hdCgiJXMgaXMgcmVxdWlyZWQgaW5wdXQgcGFy
+YW1ldGVyIiwga2V5KTsKICAgIAkJdGhyb3cgbmV3IFNlcnZpY2VFeGNlcHRpb24obXNnKTsKICAg
+IAl9CiAgICAJcmV0dXJuIHZhbHVlOwogICAgfQoKICAgIHByaXZhdGUgc3RhdGljIHZvaWQgbG9n
+KCBTdHJpbmcgbWVzc2FnZSkgewogICAgCVN5c3RlbS5vdXQucHJpbnRsbihTdHJpbmcuZm9ybWF0
+KCI+Pj5bQXBwUGxhdCBHYXRld2F5XSAlcyIsIG1lc3NhZ2UpKTsKICAgIH0KCiAgICBwcml2YXRl
+IHN0YXRpYyB2b2lkIHNldFBhY2thZ2VGb2xkZXJQcm90ZWN0aW9ucygpIHsKICAgICAgICAvLyBF
+eGVjdXRlLCBsaXN0LCByZWFkICYgd3JpdGUgQUNMcwogICAgCS8vIHBhY2thZ2Ugc3RhcnR1cCAm
+IHNodXRkb3duCiAgICAJc2V0QWxsQWNsVHlwZXMoImFwcGxhdGZvcm0ucGtnIiwgQUNMTWFuYWdl
+ci5XRUJNX0FETUlOSVNUUkFUT1JTX0FDTCk7CiAgICAJLy8gcmVnaXN0ZXIgYW5kIHVucmVnaXN0
+ZXIgSVMgc2VydmljZSBwcm9qZWN0aW9ucyBvZiBPU0dpIHNlcnZpY2VzIGluIERlc2lnbmVyCiAg
+ICAgICAgc2V0QWxsQWNsVHlwZXMoImFwcGxhdGZvcm0uc2VydmljZSIsIEFDTE1hbmFnZXIuV0VC
+TV9ERVZFTE9QRVJTX0FDTCk7CiAgICAgICAgLy8gd2VibSB0YWdsaWIgc3VwcG9ydCBwZXJtaXRz
+IGludm9jYXRpb24gb2YgYW5vbnltb3VzIHNlcnZpY2VzCiAgICAgICAgc2V0QWxsQWNsVHlwZXMo
+ImFwcGxhdGZvcm0uanNwIiwgIkFub255bW91cyIgLypBQ0xNYW5hZ2VyLklOVEVSTkFMX0FDTCov
+KTsKICAgICAgICBzZXRBbGxBY2xUeXBlcygicHViIiwgIkFub255bW91cyIgLypBQ0xNYW5hZ2Vy
+LklOVEVSTkFMX0FDTCovKTsKICAgIH0KCgo=</value>
+  <value name="encodeutf8">true</value>
+  <array name="imports" type="value" depth="1">
+    <value>java.util.ArrayList</value>
+    <value>com.softwareag.applatform.pls.is.osgi.Metadata2Signatures</value>
+    <value>com.softwareag.applatform.pls.is.osgi.MethodMetadataImpl</value>
+    <value>com.softwareag.applatform.pls.is.osgi.OsgiService</value>
+    <value>com.softwareag.util.IDataMap</value>
+    <value>com.wm.app.b2b.server.ACLManager</value>
+    <value>com.wm.app.b2b.server.BaseService</value>
+    <value>com.wm.app.b2b.server.Package</value>
+    <value>com.wm.app.b2b.server.PackageState</value>
+    <value>com.wm.app.b2b.server.PackageManager</value>
+    <value>com.wm.app.b2b.server.PackageStore</value>
+    <value>com.wm.app.b2b.server.ServiceException</value>
+    <value>com.wm.app.b2b.util.ServerIf</value>
+    <value>com.wm.app.b2b.server.ACLManager</value>
+    <value>com.softwareag.util.IDataMap</value>
+    <value>com.wm.app.b2b.server.Server</value>
+    <value>com.wm.data.*</value>
+    <value>com.wm.lang.ns.NSInterface</value>
+    <value>com.wm.lang.ns.NSName</value>
+    <value>com.wm.lang.ns.NSNode</value>
+    <value>com.wm.lang.ns.NSRecord</value>
+    <value>com.wm.lang.ns.NSService</value>
+    <value>com.wm.lang.ns.NSSignature</value>
+  </array>
+</Values>
