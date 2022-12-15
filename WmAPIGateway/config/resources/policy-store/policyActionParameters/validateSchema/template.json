@@ -1,0 +1,19 @@
+{
+	"templateKey" : "validateSchema",
+	"names" : [
+	   {
+		 "value" : "Schema",
+		 "locale" : "en"
+	   }
+	 ],
+	 "descriptions" : [
+	   {
+		 "value" : "Evaluate that the request has a valid schema",
+		 "locale" : "en"
+	   }
+	 ],
+	"type" : "OBJECT",
+	"isRequired" : "false",
+	"isArray" : "false", 
+	"parameterTemplatesReference" : ["schemaProperties"]
+}

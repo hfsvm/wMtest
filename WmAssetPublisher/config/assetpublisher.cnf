@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.data.ISMemDataImpl">
+    <value name="is_hostname">ITSAZUATAPI002.ITSFINDEV.com</value>
+    <value name="is_identifier">b2a4d452-44d7-440c-9a5f-e3bb874e92d3</value>
+    <value name="library_username"></value>
+    <value name="library_url"></value>
+  </record>
+</IDataXMLCoder>

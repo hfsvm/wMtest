@@ -1,0 +1,24 @@
+{
+    "properties": {
+      "isActive" :{
+		"type": "text",
+		"analyzer": "not_analyzed_ignorecase",
+		"fielddata" : true
+	  },
+	  "apiDescription": {
+		"type": "text",
+		"analyzer": "not_analyzed_ignorecase",
+		"fielddata" : true
+	  },
+	  "apiName": {
+		"type": "text",
+		"analyzer": "not_analyzed_ignorecase",
+		"fielddata" : true
+	  },
+	  "apiVersion": {
+		"type": "text",
+		"analyzer": "not_analyzed_ignorecase",
+		"fielddata" : true
+	  }
+    }
+}

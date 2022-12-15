@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.2.xsd"
+       default-init-method="init"
+       default-destroy-method="shutdown">
+
+    <bean id="clusterManager" class="com.softwareag.pg.cluster.is.ISClusterManager">
+    </bean>
+
+    <bean id="gatewayCacheManager" class="com.softwareag.apigateway.is.cache.GatewayEhCacheManager">
+        <property name="distributedEhCacheConfigFilePath" value="resources/caching/SoftwareAG-IS-API-Gateway.xml"/>
+        <property name="localEhCacheConfigFilePath" value="resources/caching/APIGateway-Local-Cache-Template.xml"/>
+        <property name="gatewayCacheConfigBuilder" ref="gatewayEhCacheConfigBuilder"/>
+    </bean>
+
+    <!--  **************************** PG MEN CONIFIGURATION ********************************* -->
+
+    <!-- Bean definition for the Cluster Notifier -->
+    <bean id="apiGatewayCluster" class="com.softwareag.apigateway.core.cluster.notifier.TerracottaClusterNotifier"/>
+
+    <!-- Bean definition for the Cluster Notifier Synchronization -->
+    <bean id="apiGatewayClusterSync" class="com.softwareag.apigateway.core.cluster.notifier.ClusterNotifierSynchronizer"/>
+
+
+    <!-- Bean definition for the CacheManager and com.softwareag.pg.pgmen.cache.ehcache.EhcacheCacheFactory (see APIgateway runtime) -->
+    <bean class="com.softwareag.pg.pgmen.cache.ehcache.EhcacheCacheFactory" name="ehCacheFactory" lazy-init="true" destroy-method="destroy">
+        <constructor-arg ref="PgMenSharedCacheManager"/>
+    </bean>
+
+    <bean id="PgMenSharedCacheManager" class="com.softwareag.pg.pgmen.cache.CacheManager"
+          depends-on="clusterManager" factory-method="inst"
+          init-method="init" destroy-method="destroy">
+
+        <!-- how long do we wait on lock timeouts. Value is in seconds -->
+        <property name="lockTimeOut" value="5"/>
+        <!-- how many times do we retry to obtain locks for macCache entries -->
+        <property name="retryCount" value="1"/>
+    </bean>
+
+</beans>

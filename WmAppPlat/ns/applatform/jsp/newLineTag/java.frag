@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="name">newLineTag</value>
+  <array name="sig" type="value" depth="1">
+    <value>[i] field:0:optional debug</value>
+    <value>[i] field:0:required sessionId</value>
+    <value>[i] field:0:required pageName</value>
+    <value>[i] field:0:required threadName</value>
+    <value>[i] field:0:required action</value>
+    <value>[i] field:0:required name</value>
+  </array>
+  <value name="sigtype">java 3.5</value>
+  <value name="encodeutf8">true</value>
+  <value name="body">CklEYXRhTWFwIHBpcGVNYXAgPSBuZXcgSURhdGFNYXAocGlwZWxpbmUpOwkJCQkKSURhdGEgcmVx
+dWVzdCA9IHBpcGVsaW5lOwoKYm9vbGVhbiBkZWJ1ZyA9IGdldERlYnVnKCBwaXBlTWFwICk7CQkK
+U3RyaW5nIHNlc3Npb25JZCA9IGdldFNlc3Npb25JZCggcGlwZU1hcCApOwpTdHJpbmcgcGFnZU5h
+bWUgPSBnZXRQYWdlTmFtZSggcGlwZU1hcCApOwpTdHJpbmcgdGhyZWFkTmFtZSA9IGdldFNlcnZp
+Y2VUaHJlYWQoIHBpcGVNYXAgKTsKU3RyaW5nIGFjdGlvbiA9IGdldEFjdGlvbiggcGlwZU1hcCAp
+OwpTdHJpbmcgdGFnU3ZjTmFtZSA9IGdldFRhZ1N2Y05hbWUocGlwZU1hcCk7CgpTdHJpbmcgbmFt
+ZSA9IHBpcGVNYXAuZ2V0QXNTdHJpbmcoICJuYW1lIiApOyAvLyBDb25zdGFudHMuTkFNRV9QCgpS
+ZXBvcnRlciByZXBvcnRlciA9IEpTUE1hbmFnZXIuZ2V0SW5zdGFuY2UoKS5nZXRSZXBvcnRlcihz
+ZXNzaW9uSWQsIHRocmVhZE5hbWUpOwppZiAoIHJlcG9ydGVyID09IG51bGwgKSB7CglyZXBvcnRl
+ciA9IEpTUE1hbmFnZXIuZ2V0SW5zdGFuY2UoKS5jcmVhdGVSZXBvcnRlcihzZXNzaW9uSWQsIHRo
+cmVhZE5hbWUsIHJlcXVlc3QpOwp9CQkJCnJlcG9ydGVyLnNldFdyaXRlciggZ2V0V3JpdGVyKCBw
+aXBlTWFwICkgKTsKCmlmICggZGVidWcgKSB7CglTeXN0ZW0uZXJyLnByaW50bG4oU3RyaW5nLmZv
+cm1hdCgiXG5bJXNdOiVzIiwgdGFnU3ZjTmFtZSwgbmV3IGphdmEudXRpbC5EYXRlKCkpKTsKCS8v
+U3lzdGVtLmVyci5wcmludGxuKFN0cmluZy5mb3JtYXQoIlJlcG9ydGVyOiAlcy4uLiVzIiwgcmVw
+b3J0ZXIsIHJlcG9ydGVyLmRlYnVnKCkpKTsKCVN5c3RlbS5lcnIucHJpbnRsbihTdHJpbmcuZm9y
+bWF0KCJTZXNzaW9uSWQ6ICVzIiwgc2Vzc2lvbklkKSk7CglTeXN0ZW0uZXJyLnByaW50bG4oU3Ry
+aW5nLmZvcm1hdCgicGFnZU5hbWU6ICVzIiwgcGFnZU5hbWUpKTsKCVN5c3RlbS5lcnIucHJpbnRs
+bihTdHJpbmcuZm9ybWF0KCJzZXJ2aWNlVGhyZWFkOiAlcyIsIHRocmVhZE5hbWUpKTsKCVN5c3Rl
+bS5lcnIucHJpbnRsbihTdHJpbmcuZm9ybWF0KCJhY3Rpb246ICVzIiwgYWN0aW9uKSk7CglTeXN0
+ZW0uZXJyLnByaW50bG4oU3RyaW5nLmZvcm1hdCgiVmFyczogbmFtZT0lcyIsIG5hbWUgKSk7CglT
+eXN0ZW0uZXJyLnByaW50bG4oU3RyaW5nLmZvcm1hdCgiY3VycmVudFRva2VuOiAlcyIsIEpTUE1h
+bmFnZXIuZ2V0SW5zdGFuY2UoKS5nZXRUZW1wbGF0ZVRva2VuKHNlc3Npb25JZCwgZ2V0VG9rZW5L
+ZXkodGFnU3ZjTmFtZSwgdGhyZWFkTmFtZSkpICkpOwp9CgppZiAoICJzdGFydCIuZXF1YWxzKGFj
+dGlvbikpIHsKCQp9IGVsc2UgewoJCglOZXdsaW5lVG9rZW4gdG9rZW4gPSBuZXcgTmV3bGluZVRv
+a2VuKCIiKTsKCXRva2VuLmV2YWwoIHJlcG9ydGVyICk7CglKU1BNYW5hZ2VyLmdldEluc3RhbmNl
+KCkudXBkYXRlVG9rZW4oIHNlc3Npb25JZCwgZ2V0VG9rZW5LZXkodGFnU3ZjTmFtZSwgdGhyZWFk
+TmFtZSksIHRva2VuKTsKCn0K</value>
+</Values>

@@ -1,0 +1,28 @@
+<ehcache name="API-Gateway-Local-Cache">    
+    <diskStore path="./cacheStore/SoftwareAG-IS-API-Gateway"/>    
+    <defaultCache maxEntriesLocalHeap="0"/>
+	<cache name="ASSERTIONSCache" memoryStoreEvictionPolicy="LFU"/>
+	<cache name="ACCESS_PROFILESCache" memoryStoreEvictionPolicy="LFU"/>
+	<cache name="ALIASCache" memoryStoreEvictionPolicy="LFU"/>
+    <cache name="STAGESCache" memoryStoreEvictionPolicy="LFU"/>
+    <cache name="SEARCH_QUERYCache"  memoryStoreEvictionPolicy="LFU"/>
+    <cache name="PROMOTIONCache" memoryStoreEvictionPolicy="LFU"/>
+    <cache name="ROLLBACKCache"  memoryStoreEvictionPolicy="LFU"/>
+	<cache name="CONFIGURATIONSCache"  memoryStoreEvictionPolicy="LFU"/>
+	<cache name="GROUPSCache"  memoryStoreEvictionPolicy="LFU"/>
+	<cache name="IS_PACKAGESCache"  memoryStoreEvictionPolicy="LFU"/>
+	<cache name="KERBEROS_SETTINGSCache" memoryStoreEvictionPolicy="LFU"/>
+	<cache name="KEY_STORECache" memoryStoreEvictionPolicy="LFU"/>
+	<cache name="OUTBOUNDPROXY_SETTINGSCache" memoryStoreEvictionPolicy="LFU"/>
+	<cache name="PASSMAN_STORECache" memoryStoreEvictionPolicy="LFU"/>
+	<cache name="TRUST_STORECache" memoryStoreEvictionPolicy="LFU"/>
+	<cache name="URL_ALIASESCache" memoryStoreEvictionPolicy="LFU"/>
+	<cache name="USERSCache" memoryStoreEvictionPolicy="LFU"/>
+	<cache name="APPLICATIONSCache" memoryStoreEvictionPolicy="LFU"/>
+    <cache name="REGISTERED_APPLICATIONSCache" memoryStoreEvictionPolicy="LFU"/>
+	<cache name="PUBLISH_INFOCache" memoryStoreEvictionPolicy="LFU"/>
+    <cache name="APISCache" memoryStoreEvictionPolicy="LFU"/>
+    <cache name="POLICIESCache" memoryStoreEvictionPolicy="LFU"/>
+    <cache name="POLICY_ACTIONSCache" memoryStoreEvictionPolicy="LFU"/>
+	<cache name="ACCESS_CONTROL_LISTCache" memoryStoreEvictionPolicy="LFU"/>
+</ehcache>

@@ -1,0 +1,4 @@
+<groupsmapping>
+	<group source="CN=RnD-INM-Lotakki,OU=Groups,OU=India,DC=eur,DC=ad,DC=sag" target="Administrators" /> 
+	<group source="CN=Z_Location_Chennai,OU=DL_Automatic,OU=01Global,DC=eur,DC=ad,DC=sag" target="API-Gateway-Providers" /> 	
+</groupsmapping>

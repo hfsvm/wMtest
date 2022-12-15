@@ -1,0 +1,7 @@
+{
+	"POLICYACTION": ["ALL"],
+	"APPLICATION": ["ALL"],
+	"POLICY": ["ALL"],
+	"ALIAS": ["ALL"],
+	"CONFIGURATION": ["ALL"]
+}
